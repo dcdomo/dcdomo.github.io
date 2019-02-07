@@ -1,0 +1,72 @@
+<html>
+	<head>
+	<title>I'm Batman</title>
+	<script>
+	feedback()
+	{
+
+		String output="Thank you for the time"
+		document.getElementById('output').innerHTML="Feedback: "+ output
+
+	}
+	</script>
+	</head>
+	<body>
+		<h1>Batman</h1>
+		<h3><span style="background-color: #99ccff;">About</span></h3>
+		<p>Bla bla!</p>
+		<p>Hi, I'm Batman. I love <a href="https://en.wikipedia.org/wiki/User_interface">User Interface Design,</a></p>
+		<img src="batman.jpg" alt="Batman" width="500" height="333">
+
+	<h3><span style="background-color: #99ccff;">Courses</span></h3>
+	<table style="border-collapse: collapse; width: 100%; height: 144px;" border="1">
+	<tbody>
+	<tr style="height: 18px;">
+	<td style="width: 33.3333%; height: 18px;"><strong>Course Number</strong></td>
+	<td style="width: 33.3333%; height: 18px;"><strong>Course Title</strong></td>
+	<td style="width: 33.3333%; height: 18px;"><strong>Semester Taken</strong></td>
+	</tr>
+	<tr style="height: 18px;">
+	<td style="width: 99.9999%; text-align: center; height: 18px;" colspan="3"><strong>For Credit</strong></td>
+	</tr>
+	<tr style="height: 18px; background-color: #c4c4c4;">
+	<td style="width: 33.3333%; height: 18px;">6.813</td>
+	<td style="width: 33.3333%; height: 18px;">User Interface Design</td>
+	<td style="width: 33.3333%; height: 18px;">Spring 2014</td>
+	</tr>
+	<tr style="height: 18px;">
+	<td style="width: 33.3333%; height: 18px;">6.034</td>
+	<td style="width: 33.3333%; height: 18px;">Artifical Intelligence</td>
+	<td style="width: 33.3333%; height: 18px;">Fall 2013</td>
+	</tr>
+	<tr style="height: 18px; background-color: #c4c4c4;">
+	<td style="width: 33.3333%; height: 18px;">6.006</td>
+	<td style="width: 33.3333%; height: 18px;">Introduciton to Algorithms</td>
+	<td style="width: 33.3333%; height: 18px;">Fall 2013</td>
+	</tr>
+	<tr style="height: 18px;">
+	<td style="width: 99.9999%; text-align: center; height: 18px;" colspan="3"><strong>Listener</strong></td>
+	</tr>
+	<tr style="height: 18px; background-color: #c4c4c4;">
+	<td style="width: 33.3333%; height: 18px;">6.867</td>
+	<td style="width: 33.3333%; height: 18px;">Machine Learning&nbsp;</td>
+	<td style="width: 33.3333%; height: 18px;">Fall 2013</td>
+	</tr>
+	<tr style="height: 18px;">
+	<td style="width: 33.3333%; height: 18px;">6.830</td>
+	<td style="width: 33.3333%; height: 18px;">Database Systems</td>
+	<td style="width: 33.3333%; height: 18px;">Fall 2013</td>
+	</tr>
+	</tbody>
+	</table>
+
+	<h3><span style="background-color: #99ccff;">Interests</span></h3>
+	<p>I'm interested <strong>HCI</strong>, <em>memes</em> and youtube videos.</p>
+	<h3><span style="background-color: #99ccff;">Subscribe to newsletter</span></h3>
+	<p>Would love to receive newsletter. Submit below!</p>
+	<p>Name: <input type="text" id="input1"></p>
+	<p>Email: <input type="text" id="input2"></p>
+	<!-- <p><button type="button" onclick="feedback()">Submit</button>> does not work??-->
+	<p><button type="button" onclick="alert('Thank you!')">Submit</button></p>
+	</body>
+</html>
